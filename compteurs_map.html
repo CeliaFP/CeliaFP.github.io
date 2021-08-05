@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_e4dcbc8f38a5407299e631876ea3594a {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_e4dcbc8f38a5407299e631876ea3594a" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_e4dcbc8f38a5407299e631876ea3594a = L.map(
+        'map_e4dcbc8f38a5407299e631876ea3594a', {
+        center: [48.86, 2.33],
+        zoom: 12.9,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_6f05d5a92c1c457a91c3f5ceed19115b = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+    var tile_layer_39c4c9ad3d17421bb8c1cd33c98aa855 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+    
+        var marker_27459b98ff1440d09615225c6b14c57e = L.marker(
+            [48.82024, 2.35902],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_fd4a69b108d44bb782a70917dfa231fb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6616aade76a446eba039d945d8428861 = $(`<div id="html_6616aade76a446eba039d945d8428861" style="width: 100.0%; height: 100.0%;">180 avenue d'Italie N-S</div>`)[0];
+                popup_fd4a69b108d44bb782a70917dfa231fb.setContent(html_6616aade76a446eba039d945d8428861);
+            
+
+            marker_27459b98ff1440d09615225c6b14c57e.bindPopup(popup_fd4a69b108d44bb782a70917dfa231fb)
+            ;
+
+            
+        
+    
+        var marker_a98cd23f79dd49abab786a8fb42bae8b = L.marker(
+            [48.82026, 2.3592],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_16e7661444504756b41259f930a879ba = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_604bc47cd2d44c32a3ba85de61c8d444 = $(`<div id="html_604bc47cd2d44c32a3ba85de61c8d444" style="width: 100.0%; height: 100.0%;">147 avenue d'Italie S-N</div>`)[0];
+                popup_16e7661444504756b41259f930a879ba.setContent(html_604bc47cd2d44c32a3ba85de61c8d444);
+            
+
+            marker_a98cd23f79dd49abab786a8fb42bae8b.bindPopup(popup_16e7661444504756b41259f930a879ba)
+            ;
+
+            
+        
+    
+        var marker_bfe0c57736294bcf93fb195b736733f4 = L.marker(
+            [48.82108, 2.32537],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_50ff1c07fb6247c2a808b5217be293b9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6ce1d46235da4cde9160f02e38df63e3 = $(`<div id="html_6ce1d46235da4cde9160f02e38df63e3" style="width: 100.0%; height: 100.0%;">3 avenue de la Porte D'Orléans S-N</div>`)[0];
+                popup_50ff1c07fb6247c2a808b5217be293b9.setContent(html_6ce1d46235da4cde9160f02e38df63e3);
+            
+
+            marker_bfe0c57736294bcf93fb195b736733f4.bindPopup(popup_50ff1c07fb6247c2a808b5217be293b9)
+            ;
+
+            
+        
+    
+        var marker_9168863a63f947eb85feaae0ad470278 = L.marker(
+            [48.82636, 2.30303],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_c1239248409348fcb048f618628e6606 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bf246036b86d4da1998780ac5e75e0f2 = $(`<div id="html_bf246036b86d4da1998780ac5e75e0f2" style="width: 100.0%; height: 100.0%;">6 rue Julia Bartet</div>`)[0];
+                popup_c1239248409348fcb048f618628e6606.setContent(html_bf246036b86d4da1998780ac5e75e0f2);
+            
+
+            marker_9168863a63f947eb85feaae0ad470278.bindPopup(popup_c1239248409348fcb048f618628e6606)
+            ;
+
+            
+        
+    
+        var marker_8f8ffe597e014349936e60b9f65ead16 = L.marker(
+            [48.82658, 2.38409],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_962a384b071747ed9d83f79f5d81dda1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6f0b70a62dbd4f26b999b64f914981a8 = $(`<div id="html_6f0b70a62dbd4f26b999b64f914981a8" style="width: 100.0%; height: 100.0%;">Pont National SO-NE</div>`)[0];
+                popup_962a384b071747ed9d83f79f5d81dda1.setContent(html_6f0b70a62dbd4f26b999b64f914981a8);
+            
+
+            marker_8f8ffe597e014349936e60b9f65ead16.bindPopup(popup_962a384b071747ed9d83f79f5d81dda1)
+            ;
+
+            
+        
+    
+        var marker_1265bb7c62744960a9bb13994c5dcc48 = L.marker(
+            [48.82682, 2.38465],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_d36b816878b34925b4cae407fc280977 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2fee2f09135041abb5a5068424980931 = $(`<div id="html_2fee2f09135041abb5a5068424980931" style="width: 100.0%; height: 100.0%;">Pont National  NE-SO</div>`)[0];
+                popup_d36b816878b34925b4cae407fc280977.setContent(html_2fee2f09135041abb5a5068424980931);
+            
+
+            marker_1265bb7c62744960a9bb13994c5dcc48.bindPopup(popup_d36b816878b34925b4cae407fc280977)
+            ;
+
+            
+        
+    
+        var marker_607c5e0deaff4483a2abcc8b36aae563 = L.marker(
+            [48.829523, 2.38699],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_2fa2eee7dd5142fe9d7e2f1657e3fe35 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ed0ec34e9ef648fe90b3a2ae558b5a31 = $(`<div id="html_ed0ec34e9ef648fe90b3a2ae558b5a31" style="width: 100.0%; height: 100.0%;">Face au 70 quai de Bercy</div>`)[0];
+                popup_2fa2eee7dd5142fe9d7e2f1657e3fe35.setContent(html_ed0ec34e9ef648fe90b3a2ae558b5a31);
+            
+
+            marker_607c5e0deaff4483a2abcc8b36aae563.bindPopup(popup_2fa2eee7dd5142fe9d7e2f1657e3fe35)
+            ;
+
+            
+        
+    
+        var marker_a1f8f8bc47eb49dab51444dfd694026f = L.marker(
+            [48.830331, 2.400551],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_1cd30c98fef54c86b1b353b68ae74e42 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5884454aa18f4407a5f121c35b6d8e9b = $(`<div id="html_5884454aa18f4407a5f121c35b6d8e9b" style="width: 100.0%; height: 100.0%;">Face au 8 avenue de la porte de Charenton</div>`)[0];
+                popup_1cd30c98fef54c86b1b353b68ae74e42.setContent(html_5884454aa18f4407a5f121c35b6d8e9b);
+            
+
+            marker_a1f8f8bc47eb49dab51444dfd694026f.bindPopup(popup_1cd30c98fef54c86b1b353b68ae74e42)
+            ;
+
+            
+        
+    
+        var marker_b8c17945b2994cf9943b353f67a1ae0c = L.marker(
+            [48.830449, 2.353199],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_49af05a368274ea8a55ca4d91cb5996f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d2bde29186bc44f4a8a8787762d55ccf = $(`<div id="html_d2bde29186bc44f4a8a8787762d55ccf" style="width: 100.0%; height: 100.0%;">21 boulevard Auguste Blanqui SO-NE</div>`)[0];
+                popup_49af05a368274ea8a55ca4d91cb5996f.setContent(html_d2bde29186bc44f4a8a8787762d55ccf);
+            
+
+            marker_b8c17945b2994cf9943b353f67a1ae0c.bindPopup(popup_49af05a368274ea8a55ca4d91cb5996f)
+            ;
+
+            
+        
+    
+        var marker_bd16162fa2024fd9b63f7368e6c9e64e = L.marker(
+            [48.83068, 2.35348],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_9331bc7be947420a9ed769c0e79a4940 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_522c432b29434763ae68c1d9e227ce7e = $(`<div id="html_522c432b29434763ae68c1d9e227ce7e" style="width: 100.0%; height: 100.0%;">10 boulevard Auguste Blanqui NE-SO</div>`)[0];
+                popup_9331bc7be947420a9ed769c0e79a4940.setContent(html_522c432b29434763ae68c1d9e227ce7e);
+            
+
+            marker_bd16162fa2024fd9b63f7368e6c9e64e.bindPopup(popup_9331bc7be947420a9ed769c0e79a4940)
+            ;
+
+            
+        
+    
+        var marker_d67dd365ad134743b9193bb40da1516a = L.marker(
+            [48.83421, 2.26542],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_0aa48cba54db4b048ccb3c66b7bdcfa7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d8483c41fab046ddbb5ec5e863cc5f53 = $(`<div id="html_d8483c41fab046ddbb5ec5e863cc5f53" style="width: 100.0%; height: 100.0%;">Face au 40 quai D'Issy</div>`)[0];
+                popup_0aa48cba54db4b048ccb3c66b7bdcfa7.setContent(html_d8483c41fab046ddbb5ec5e863cc5f53);
+            
+
+            marker_d67dd365ad134743b9193bb40da1516a.bindPopup(popup_0aa48cba54db4b048ccb3c66b7bdcfa7)
+            ;
+
+            
+        
+    
+        var marker_d433355db6444e7896e973ce26bbfab6 = L.marker(
+            [48.83436, 2.377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_06fde74734cb4dcf80d91113e488da00 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7cd871d5492f4919a6fe73ec9b4e4329 = $(`<div id="html_7cd871d5492f4919a6fe73ec9b4e4329" style="width: 100.0%; height: 100.0%;">39 quai François Mauriac</div>`)[0];
+                popup_06fde74734cb4dcf80d91113e488da00.setContent(html_7cd871d5492f4919a6fe73ec9b4e4329);
+            
+
+            marker_d433355db6444e7896e973ce26bbfab6.bindPopup(popup_06fde74734cb4dcf80d91113e488da00)
+            ;
+
+            
+        
+    
+        var marker_63fc6b30e4514a1197115351bba9704d = L.marker(
+            [48.83511, 2.33338],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_3aef72e8677e4d37b06f658ab63f755d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f1a2eec8de564b96a514f5ef5b600f8b = $(`<div id="html_f1a2eec8de564b96a514f5ef5b600f8b" style="width: 100.0%; height: 100.0%;">97 avenue Denfert Rochereau</div>`)[0];
+                popup_3aef72e8677e4d37b06f658ab63f755d.setContent(html_f1a2eec8de564b96a514f5ef5b600f8b);
+            
+
+            marker_63fc6b30e4514a1197115351bba9704d.bindPopup(popup_3aef72e8677e4d37b06f658ab63f755d)
+            ;
+
+            
+        
+    
+        var marker_38f1e23b613e498198fe86d927baafa0 = L.marker(
+            [48.83521, 2.33307],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_ee82d5662d0741adb57bd5a069d76ca8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6dfe856b41d74daab6e3f0bc55fb852b = $(`<div id="html_6dfe856b41d74daab6e3f0bc55fb852b" style="width: 100.0%; height: 100.0%;">106 avenue Denfert Rochereau NE-SO</div>`)[0];
+                popup_ee82d5662d0741adb57bd5a069d76ca8.setContent(html_6dfe856b41d74daab6e3f0bc55fb852b);
+            
+
+            marker_38f1e23b613e498198fe86d927baafa0.bindPopup(popup_ee82d5662d0741adb57bd5a069d76ca8)
+            ;
+
+            
+        
+    
+        var marker_68e80e1c1c6c49abb590d4b010a2c28a = L.marker(
+            [48.83848, 2.37587],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_de6a067a0b1d407488154935af83ff7d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_468e896f848441b6b41c076651c332b1 = $(`<div id="html_468e896f848441b6b41c076651c332b1" style="width: 100.0%; height: 100.0%;">Pont de Bercy</div>`)[0];
+                popup_de6a067a0b1d407488154935af83ff7d.setContent(html_468e896f848441b6b41c076651c332b1);
+            
+
+            marker_68e80e1c1c6c49abb590d4b010a2c28a.bindPopup(popup_de6a067a0b1d407488154935af83ff7d)
+            ;
+
+            
+        
+    
+        var marker_fb23033e20a74dae9f500812724b2678 = L.marker(
+            [48.83977, 2.30198],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_d132dd572c1a43c19119f28d7bb0eb7b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e591188d206941fd8e736a6677287b35 = $(`<div id="html_e591188d206941fd8e736a6677287b35" style="width: 100.0%; height: 100.0%;">254 rue de Vaugirard</div>`)[0];
+                popup_d132dd572c1a43c19119f28d7bb0eb7b.setContent(html_e591188d206941fd8e736a6677287b35);
+            
+
+            marker_fb23033e20a74dae9f500812724b2678.bindPopup(popup_d132dd572c1a43c19119f28d7bb0eb7b)
+            ;
+
+            
+        
+    
+        var marker_a86ec08e51ff492fac0027a4b2ba6522 = L.marker(
+            [48.83992, 2.26694],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_f310946923504cd39e93ad3246a78eba = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ebccb97b88e54d2abc107b8b28c4b273 = $(`<div id="html_ebccb97b88e54d2abc107b8b28c4b273" style="width: 100.0%; height: 100.0%;">Pont du Garigliano</div>`)[0];
+                popup_f310946923504cd39e93ad3246a78eba.setContent(html_ebccb97b88e54d2abc107b8b28c4b273);
+            
+
+            marker_a86ec08e51ff492fac0027a4b2ba6522.bindPopup(popup_f310946923504cd39e93ad3246a78eba)
+            ;
+
+            
+        
+    
+        var marker_981a4b9d63bb431cba6f20b3c974cdd6 = L.marker(
+            [48.84015, 2.26733],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_181f37a53b2246be8ab9379056d1cda6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_78b922c43ed44ede9ec394eff1cddf72 = $(`<div id="html_78b922c43ed44ede9ec394eff1cddf72" style="width: 100.0%; height: 100.0%;">Pont du Garigliano NO-SE</div>`)[0];
+                popup_181f37a53b2246be8ab9379056d1cda6.setContent(html_78b922c43ed44ede9ec394eff1cddf72);
+            
+
+            marker_981a4b9d63bb431cba6f20b3c974cdd6.bindPopup(popup_181f37a53b2246be8ab9379056d1cda6)
+            ;
+
+            
+        
+    
+        var marker_32f174cb2dec44b68ab671d6895d37cd = L.marker(
+            [48.840801, 2.333233],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_3131524e9c964fe081c48f9edfb5bd84 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a2316e3317ba439086af5e9bcdeff6c1 = $(`<div id="html_a2316e3317ba439086af5e9bcdeff6c1" style="width: 100.0%; height: 100.0%;">152 boulevard du Montparnasse</div>`)[0];
+                popup_3131524e9c964fe081c48f9edfb5bd84.setContent(html_a2316e3317ba439086af5e9bcdeff6c1);
+            
+
+            marker_32f174cb2dec44b68ab671d6895d37cd.bindPopup(popup_3131524e9c964fe081c48f9edfb5bd84)
+            ;
+
+            
+        
+    
+        var marker_567ea9ec2bee4c698db9a536f34f3d4f = L.marker(
+            [48.84201, 2.36729],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_74eb40fc75f7403ba94ccf73a4d28b16 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_26a64c9e816246c1b41ea143cb0d3e8c = $(`<div id="html_26a64c9e816246c1b41ea143cb0d3e8c" style="width: 100.0%; height: 100.0%;">Totem 85 quai d'Austerlitz</div>`)[0];
+                popup_74eb40fc75f7403ba94ccf73a4d28b16.setContent(html_26a64c9e816246c1b41ea143cb0d3e8c);
+            
+
+            marker_567ea9ec2bee4c698db9a536f34f3d4f.bindPopup(popup_74eb40fc75f7403ba94ccf73a4d28b16)
+            ;
+
+            
+        
+    
+        var marker_bbb19cf4c7b84ca9969cbb3fa46ea12c = L.marker(
+            [48.842091, 2.301],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_314742d9c7d34072b42eb052323e2d58 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cf51bfbcfb8a467e9b0902ff1a8e89b0 = $(`<div id="html_cf51bfbcfb8a467e9b0902ff1a8e89b0" style="width: 100.0%; height: 100.0%;">129 rue Lecourbe SO-NE</div>`)[0];
+                popup_314742d9c7d34072b42eb052323e2d58.setContent(html_cf51bfbcfb8a467e9b0902ff1a8e89b0);
+            
+
+            marker_bbb19cf4c7b84ca9969cbb3fa46ea12c.bindPopup(popup_314742d9c7d34072b42eb052323e2d58)
+            ;
+
+            
+        
+    
+        var marker_9e22c89e6afb44e3ad92132a042593fc = L.marker(
+            [48.84216, 2.30115],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_0a2ea41ae69c42b3863ff3c8f9766faa = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_74da4c6e593d4fe5933a8333f5a336c4 = $(`<div id="html_74da4c6e593d4fe5933a8333f5a336c4" style="width: 100.0%; height: 100.0%;">132 rue Lecourbe NE-SO</div>`)[0];
+                popup_0a2ea41ae69c42b3863ff3c8f9766faa.setContent(html_74da4c6e593d4fe5933a8333f5a336c4);
+            
+
+            marker_9e22c89e6afb44e3ad92132a042593fc.bindPopup(popup_0a2ea41ae69c42b3863ff3c8f9766faa)
+            ;
+
+            
+        
+    
+        var marker_9f790aa8059f4808bb71f7178bc14466 = L.marker(
+            [48.84223, 2.36811],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_2c248d9920b24f08b4a49751c69ceeeb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_950afe017b5943c4ac4b5dbf9789b3d5 = $(`<div id="html_950afe017b5943c4ac4b5dbf9789b3d5" style="width: 100.0%; height: 100.0%;">Pont Charles De Gaulle</div>`)[0];
+                popup_2c248d9920b24f08b4a49751c69ceeeb.setContent(html_950afe017b5943c4ac4b5dbf9789b3d5);
+            
+
+            marker_9f790aa8059f4808bb71f7178bc14466.bindPopup(popup_2c248d9920b24f08b4a49751c69ceeeb)
+            ;
+
+            
+        
+    
+        var marker_e6b1e91bb74646abaa7e46578976e33e = L.marker(
+            [48.843435, 2.383378],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_dbb52e99e8594cc9be7adb44fedcd894 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fe570ac44e6b4869a326b8201c00badb = $(`<div id="html_fe570ac44e6b4869a326b8201c00badb" style="width: 100.0%; height: 100.0%;">135 avenue Daumesnil SE-NO</div>`)[0];
+                popup_dbb52e99e8594cc9be7adb44fedcd894.setContent(html_fe570ac44e6b4869a326b8201c00badb);
+            
+
+            marker_e6b1e91bb74646abaa7e46578976e33e.bindPopup(popup_dbb52e99e8594cc9be7adb44fedcd894)
+            ;
+
+            
+        
+    
+        var marker_e2b189e3ec48466cb1c0dfeae12c5ac9 = L.marker(
+            [48.846028, 2.375429],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_99b0c4f8e2864e67acda28e1501b25ae = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c9e8ce1422df4e32b671030794118dda = $(`<div id="html_c9e8ce1422df4e32b671030794118dda" style="width: 100.0%; height: 100.0%;">28 boulevard Diderot</div>`)[0];
+                popup_99b0c4f8e2864e67acda28e1501b25ae.setContent(html_c9e8ce1422df4e32b671030794118dda);
+            
+
+            marker_e2b189e3ec48466cb1c0dfeae12c5ac9.bindPopup(popup_99b0c4f8e2864e67acda28e1501b25ae)
+            ;
+
+            
+        
+    
+        var marker_a1595947ce194908b1ae418516e36848 = L.marker(
+            [48.846099, 2.375456],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_f1c15965106b415bbc29b9f1bf17ce1e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_54e7f273114144daaf7cda799307a829 = $(`<div id="html_54e7f273114144daaf7cda799307a829" style="width: 100.0%; height: 100.0%;">27 boulevard Diderot E-O</div>`)[0];
+                popup_f1c15965106b415bbc29b9f1bf17ce1e.setContent(html_54e7f273114144daaf7cda799307a829);
+            
+
+            marker_a1595947ce194908b1ae418516e36848.bindPopup(popup_f1c15965106b415bbc29b9f1bf17ce1e)
+            ;
+
+            
+        
+    
+        var marker_58d56efdea034b738e7ce2b01b6f3130 = L.marker(
+            [48.84638, 2.31529],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_fd77dab9d4224851bb967fdb21dc4e96 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8614dbfd77e54bdd8c52e2d94959556a = $(`<div id="html_8614dbfd77e54bdd8c52e2d94959556a" style="width: 100.0%; height: 100.0%;">90 Rue De Sèvres</div>`)[0];
+                popup_fd77dab9d4224851bb967fdb21dc4e96.setContent(html_8614dbfd77e54bdd8c52e2d94959556a);
+            
+
+            marker_58d56efdea034b738e7ce2b01b6f3130.bindPopup(popup_fd77dab9d4224851bb967fdb21dc4e96)
+            ;
+
+            
+        
+    
+        var marker_bdfb0849cec049f9878ccc2006b5c7d2 = L.marker(
+            [48.8484, 2.27586],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_b69091e20f074fbdb8c5c0c8c2ae53eb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_17f92232c33d4c969c7a3e07075f90f7 = $(`<div id="html_17f92232c33d4c969c7a3e07075f90f7" style="width: 100.0%; height: 100.0%;">Voie Georges Pompidou</div>`)[0];
+                popup_b69091e20f074fbdb8c5c0c8c2ae53eb.setContent(html_17f92232c33d4c969c7a3e07075f90f7);
+            
+
+            marker_bdfb0849cec049f9878ccc2006b5c7d2.bindPopup(popup_b69091e20f074fbdb8c5c0c8c2ae53eb)
+            ;
+
+            
+        
+    
+        var marker_bfa7663ed52a4dcab81302bd3c2c2ae1 = L.marker(
+            [48.85013, 2.35423],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_2e76f32fdcb5424cb4c5d1eb9ec2e311 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dab9d257b4524d889568fc41c66b09c5 = $(`<div id="html_dab9d257b4524d889568fc41c66b09c5" style="width: 100.0%; height: 100.0%;">27 quai de la Tournelle</div>`)[0];
+                popup_2e76f32fdcb5424cb4c5d1eb9ec2e311.setContent(html_dab9d257b4524d889568fc41c66b09c5);
+            
+
+            marker_bfa7663ed52a4dcab81302bd3c2c2ae1.bindPopup(popup_2e76f32fdcb5424cb4c5d1eb9ec2e311)
+            ;
+
+            
+        
+    
+        var marker_d6cd120ccc624a6fb6830eb52de89b52 = L.marker(
+            [48.851131, 2.345678],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_17c31febf2c14ee8a9395f1c8fae8567 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_72e9e7b231a1410b9955a27429e13776 = $(`<div id="html_72e9e7b231a1410b9955a27429e13776" style="width: 100.0%; height: 100.0%;">30 rue Saint Jacques N-S</div>`)[0];
+                popup_17c31febf2c14ee8a9395f1c8fae8567.setContent(html_72e9e7b231a1410b9955a27429e13776);
+            
+
+            marker_d6cd120ccc624a6fb6830eb52de89b52.bindPopup(popup_17c31febf2c14ee8a9395f1c8fae8567)
+            ;
+
+            
+        
+    
+        var marker_9469660da38f4b129c03cd4549cdafc2 = L.marker(
+            [48.851525, 2.343298],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_16c52b7d9629456f8b132cb62ceb989b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_01696a00ed1948e9a646059290590acb = $(`<div id="html_01696a00ed1948e9a646059290590acb" style="width: 100.0%; height: 100.0%;">21 boulevard Saint Michel S-N</div>`)[0];
+                popup_16c52b7d9629456f8b132cb62ceb989b.setContent(html_01696a00ed1948e9a646059290590acb);
+            
+
+            marker_9469660da38f4b129c03cd4549cdafc2.bindPopup(popup_16c52b7d9629456f8b132cb62ceb989b)
+            ;
+
+            
+        
+    
+        var marker_a0f744985a754cdf9ae4caffebfa43b5 = L.marker(
+            [48.85209, 2.28508],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_50b306fe57584d9f9da25044ebc6c068 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a95e9502650a49a98e51d83a42ca0ef4 = $(`<div id="html_a95e9502650a49a98e51d83a42ca0ef4" style="width: 100.0%; height: 100.0%;">36 quai de Grenelle</div>`)[0];
+                popup_50b306fe57584d9f9da25044ebc6c068.setContent(html_a95e9502650a49a98e51d83a42ca0ef4);
+            
+
+            marker_a0f744985a754cdf9ae4caffebfa43b5.bindPopup(popup_50b306fe57584d9f9da25044ebc6c068)
+            ;
+
+            
+        
+    
+        var marker_f75a659a8b5b4b8b82b06888128f8712 = L.marker(
+            [48.85372, 2.35702],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_d7371474f5f04d56b99ef6d78b50e50b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cfa5ef7616154eb9bfd2fca138a16710 = $(`<div id="html_cfa5ef7616154eb9bfd2fca138a16710" style="width: 100.0%; height: 100.0%;">18 quai de l'Hôtel de Ville</div>`)[0];
+                popup_d7371474f5f04d56b99ef6d78b50e50b.setContent(html_cfa5ef7616154eb9bfd2fca138a16710);
+            
+
+            marker_f75a659a8b5b4b8b82b06888128f8712.bindPopup(popup_d7371474f5f04d56b99ef6d78b50e50b)
+            ;
+
+            
+        
+    
+        var marker_cc595eb467434643ad5fa9eaeba79fac = L.marker(
+            [48.85735, 2.35211],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_ad59f843f758485286264483ea8a2812 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e10998a74bb24a05911b4e148c409fcd = $(`<div id="html_e10998a74bb24a05911b4e148c409fcd" style="width: 100.0%; height: 100.0%;">Totem 64 Rue de Rivoli</div>`)[0];
+                popup_ad59f843f758485286264483ea8a2812.setContent(html_e10998a74bb24a05911b4e148c409fcd);
+            
+
+            marker_cc595eb467434643ad5fa9eaeba79fac.bindPopup(popup_ad59f843f758485286264483ea8a2812)
+            ;
+
+            
+        
+    
+        var marker_c82a1a14b26f4847acbbbe3e22fef755 = L.marker(
+            [48.860528, 2.388364],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_6761bafc55ba460598ce8b6a0e264081 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_673b37ab510a4ce08fe1ecc1cfaa4566 = $(`<div id="html_673b37ab510a4ce08fe1ecc1cfaa4566" style="width: 100.0%; height: 100.0%;">35 boulevard de Ménilmontant</div>`)[0];
+                popup_6761bafc55ba460598ce8b6a0e264081.setContent(html_673b37ab510a4ce08fe1ecc1cfaa4566);
+            
+
+            marker_c82a1a14b26f4847acbbbe3e22fef755.bindPopup(popup_6761bafc55ba460598ce8b6a0e264081)
+            ;
+
+            
+        
+    
+        var marker_4b61b1a75c884352b98c08e7f39be683 = L.marker(
+            [48.86057, 2.38886],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_2e65e3aee808404980787240ff697364 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e2149cd4d1734f4482d4250072e14223 = $(`<div id="html_e2149cd4d1734f4482d4250072e14223" style="width: 100.0%; height: 100.0%;">26 boulevard de Ménilmontant SE-NO</div>`)[0];
+                popup_2e65e3aee808404980787240ff697364.setContent(html_e2149cd4d1734f4482d4250072e14223);
+            
+
+            marker_4b61b1a75c884352b98c08e7f39be683.bindPopup(popup_2e65e3aee808404980787240ff697364)
+            ;
+
+            
+        
+    
+        var marker_12a940b5fee2493c9f16bf41c2c0498f = L.marker(
+            [48.86077, 2.37305],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_35b1864d4dba4d59825c0e0d0c4a4e75 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a979c3b491a64d96b5004618d79e428e = $(`<div id="html_a979c3b491a64d96b5004618d79e428e" style="width: 100.0%; height: 100.0%;">72 boulevard Richard Lenoir  S-N</div>`)[0];
+                popup_35b1864d4dba4d59825c0e0d0c4a4e75.setContent(html_a979c3b491a64d96b5004618d79e428e);
+            
+
+            marker_12a940b5fee2493c9f16bf41c2c0498f.bindPopup(popup_35b1864d4dba4d59825c0e0d0c4a4e75)
+            ;
+
+            
+        
+    
+        var marker_32386ae59e674ac795c6c1ee4346b57c = L.marker(
+            [48.860852, 2.372279],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_8d7f8062e38348babb0fd072c12acb4f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f3f6b204901541a8b8a7adeb74dd235e = $(`<div id="html_f3f6b204901541a8b8a7adeb74dd235e" style="width: 100.0%; height: 100.0%;">77 boulevard Richard Lenoir N-S</div>`)[0];
+                popup_8d7f8062e38348babb0fd072c12acb4f.setContent(html_f3f6b204901541a8b8a7adeb74dd235e);
+            
+
+            marker_32386ae59e674ac795c6c1ee4346b57c.bindPopup(popup_8d7f8062e38348babb0fd072c12acb4f)
+            ;
+
+            
+        
+    
+        var marker_ced123a8b7fd443899f6305c94a33038 = L.marker(
+            [48.86149, 2.37376],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_71c5f1b4ffc7486091954c47564a16a7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5a5c0eb674834d40a738bdc2059e8cba = $(`<div id="html_5a5c0eb674834d40a738bdc2059e8cba" style="width: 100.0%; height: 100.0%;">67 boulevard Voltaire SE-NO</div>`)[0];
+                popup_71c5f1b4ffc7486091954c47564a16a7.setContent(html_5a5c0eb674834d40a738bdc2059e8cba);
+            
+
+            marker_ced123a8b7fd443899f6305c94a33038.bindPopup(popup_71c5f1b4ffc7486091954c47564a16a7)
+            ;
+
+            
+        
+    
+        var marker_8a228a69432e461aa891322934dba299 = L.marker(
+            [48.86155, 2.37407],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_a2a6edad476949a88aa9a5f9b1c64dc6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3a78996460e94ea9b3ea4afa13cae746 = $(`<div id="html_3a78996460e94ea9b3ea4afa13cae746" style="width: 100.0%; height: 100.0%;">72 boulevard Voltaire NO-SE</div>`)[0];
+                popup_a2a6edad476949a88aa9a5f9b1c64dc6.setContent(html_3a78996460e94ea9b3ea4afa13cae746);
+            
+
+            marker_8a228a69432e461aa891322934dba299.bindPopup(popup_a2a6edad476949a88aa9a5f9b1c64dc6)
+            ;
+
+            
+        
+    
+        var marker_1c81fceb5cb54438836181acee205a25 = L.marker(
+            [48.86179, 2.32014],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_f297d40ef742455aaf043ff73a1c98ce = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_92458daa53bf4b34935e60a9733fea80 = $(`<div id="html_92458daa53bf4b34935e60a9733fea80" style="width: 100.0%; height: 100.0%;">243 boulevard Saint Germain NO-SE</div>`)[0];
+                popup_f297d40ef742455aaf043ff73a1c98ce.setContent(html_92458daa53bf4b34935e60a9733fea80);
+            
+
+            marker_1c81fceb5cb54438836181acee205a25.bindPopup(popup_f297d40ef742455aaf043ff73a1c98ce)
+            ;
+
+            
+        
+    
+        var marker_d71ce8d7dcda461ebbdca16718c99a90 = L.marker(
+            [48.86282, 2.31061],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_bf98ca5f2b0a49558ecd39a5c0ea4cdc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1a950bcbc40c4a0eaa7c1ca7b0deadfb = $(`<div id="html_1a950bcbc40c4a0eaa7c1ca7b0deadfb" style="width: 100.0%; height: 100.0%;">Pont des Invalides S-N</div>`)[0];
+                popup_bf98ca5f2b0a49558ecd39a5c0ea4cdc.setContent(html_1a950bcbc40c4a0eaa7c1ca7b0deadfb);
+            
+
+            marker_d71ce8d7dcda461ebbdca16718c99a90.bindPopup(popup_bf98ca5f2b0a49558ecd39a5c0ea4cdc)
+            ;
+
+            
+        
+    
+        var marker_fda52ff3c4a8464fbacebf207b4565ca = L.marker(
+            [48.86284, 2.310345],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_12341ac9378741cf81d0884faca5fb4d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e6f48ae095e2445fb7c3deb64da6d0d3 = $(`<div id="html_e6f48ae095e2445fb7c3deb64da6d0d3" style="width: 100.0%; height: 100.0%;">Pont des Invalides N-S</div>`)[0];
+                popup_12341ac9378741cf81d0884faca5fb4d.setContent(html_e6f48ae095e2445fb7c3deb64da6d0d3);
+            
+
+            marker_fda52ff3c4a8464fbacebf207b4565ca.bindPopup(popup_12341ac9378741cf81d0884faca5fb4d)
+            ;
+
+            
+        
+    
+        var marker_bf47c0b9c3ef489dafa154c7ec097ac3 = L.marker(
+            [48.86288, 2.31179],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_215e7ac7e9ee433699611c40c63f97fa = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ab46ea0f74f8401981e6efe77836e3d9 = $(`<div id="html_ab46ea0f74f8401981e6efe77836e3d9" style="width: 100.0%; height: 100.0%;">Quai d'Orsay</div>`)[0];
+                popup_215e7ac7e9ee433699611c40c63f97fa.setContent(html_ab46ea0f74f8401981e6efe77836e3d9);
+            
+
+            marker_bf47c0b9c3ef489dafa154c7ec097ac3.bindPopup(popup_215e7ac7e9ee433699611c40c63f97fa)
+            ;
+
+            
+        
+    
+        var marker_17119918dc1f4e94a64ec4f625bb1fd3 = L.marker(
+            [48.86377, 2.35096],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_fcbc0e15d3704c7cbd2d4b6b18e6526d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d0b491a4ffec454b82e498ab31465727 = $(`<div id="html_d0b491a4ffec454b82e498ab31465727" style="width: 100.0%; height: 100.0%;">Totem 73 boulevard de Sébastopol</div>`)[0];
+                popup_fcbc0e15d3704c7cbd2d4b6b18e6526d.setContent(html_d0b491a4ffec454b82e498ab31465727);
+            
+
+            marker_17119918dc1f4e94a64ec4f625bb1fd3.bindPopup(popup_fcbc0e15d3704c7cbd2d4b6b18e6526d)
+            ;
+
+            
+        
+    
+        var marker_ffa0fc9ddb1f4c7ba0b17e47c1541523 = L.marker(
+            [48.86378, 2.32003],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_3a6e42e7f6a847449b0fe88b00f31c10 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_278271aa35a042d29c26fc5444163e5b = $(`<div id="html_278271aa35a042d29c26fc5444163e5b" style="width: 100.0%; height: 100.0%;">Pont de la Concorde S-N</div>`)[0];
+                popup_3a6e42e7f6a847449b0fe88b00f31c10.setContent(html_278271aa35a042d29c26fc5444163e5b);
+            
+
+            marker_ffa0fc9ddb1f4c7ba0b17e47c1541523.bindPopup(popup_3a6e42e7f6a847449b0fe88b00f31c10)
+            ;
+
+            
+        
+    
+        var marker_503a118e778e42f38dfba7f43851c11f = L.marker(
+            [48.86392, 2.31988],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_c8c220e837214546bec6b5d59d02fc3a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_94b38490878f44cba6bda88a900b4cae = $(`<div id="html_94b38490878f44cba6bda88a900b4cae" style="width: 100.0%; height: 100.0%;">Pont de la Concorde N-S</div>`)[0];
+                popup_c8c220e837214546bec6b5d59d02fc3a.setContent(html_94b38490878f44cba6bda88a900b4cae);
+            
+
+            marker_503a118e778e42f38dfba7f43851c11f.bindPopup(popup_c8c220e837214546bec6b5d59d02fc3a)
+            ;
+
+            
+        
+    
+        var marker_1aa23191722a4fb693f7ae0cee267fa5 = L.marker(
+            [48.86451, 2.40932],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_25d2f28abae749199f731177e33a2c6d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ae5bd0e70c3b4e14a8c2a93ee6aa72e1 = $(`<div id="html_ae5bd0e70c3b4e14a8c2a93ee6aa72e1" style="width: 100.0%; height: 100.0%;">2 avenue de la Porte de Bagnolet O-E</div>`)[0];
+                popup_25d2f28abae749199f731177e33a2c6d.setContent(html_ae5bd0e70c3b4e14a8c2a93ee6aa72e1);
+            
+
+            marker_1aa23191722a4fb693f7ae0cee267fa5.bindPopup(popup_25d2f28abae749199f731177e33a2c6d)
+            ;
+
+            
+        
+    
+        var marker_58bd0b6415964c3eb281999f82661931 = L.marker(
+            [48.86461, 2.40969],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_bdfd2d7f2797442a91da6eacf8656db1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_158594bf290f472588287cced10b77b1 = $(`<div id="html_158594bf290f472588287cced10b77b1" style="width: 100.0%; height: 100.0%;">Face au 4 avenue de la porte de Bagnolet</div>`)[0];
+                popup_bdfd2d7f2797442a91da6eacf8656db1.setContent(html_158594bf290f472588287cced10b77b1);
+            
+
+            marker_58bd0b6415964c3eb281999f82661931.bindPopup(popup_bdfd2d7f2797442a91da6eacf8656db1)
+            ;
+
+            
+        
+    
+        var marker_d10469437cdb4af1a10893886ec3e5a6 = L.marker(
+            [48.86462, 2.31444],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_30acf7f66723497f819b638ca7e7c5a8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_89e02927421d48338a8329541f6a972b = $(`<div id="html_89e02927421d48338a8329541f6a972b" style="width: 100.0%; height: 100.0%;">Totem Cours la Reine</div>`)[0];
+                popup_30acf7f66723497f819b638ca7e7c5a8.setContent(html_89e02927421d48338a8329541f6a972b);
+            
+
+            marker_d10469437cdb4af1a10893886ec3e5a6.bindPopup(popup_30acf7f66723497f819b638ca7e7c5a8)
+            ;
+
+            
+        
+    
+        var marker_10de68272312424dba218fa98a369780 = L.marker(
+            [48.86521, 2.35358],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_da3d5d89257048f0b45a3679da567fef = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0ceaaa8b605142148539d1f193a4143c = $(`<div id="html_0ceaaa8b605142148539d1f193a4143c" style="width: 100.0%; height: 100.0%;">38 rue Turbigo</div>`)[0];
+                popup_da3d5d89257048f0b45a3679da567fef.setContent(html_0ceaaa8b605142148539d1f193a4143c);
+            
+
+            marker_10de68272312424dba218fa98a369780.bindPopup(popup_da3d5d89257048f0b45a3679da567fef)
+            ;
+
+            
+        
+    
+        var marker_3be8551783ba427da0c311d4fbe4249e = L.marker(
+            [48.869831, 2.307076],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_3c0945284ec94b5a9e139c3b2604215b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_95e2d7e5fdc146b6930ec295a8b5820d = $(`<div id="html_95e2d7e5fdc146b6930ec295a8b5820d" style="width: 100.0%; height: 100.0%;">33 avenue des Champs Elysées NO-SE</div>`)[0];
+                popup_3c0945284ec94b5a9e139c3b2604215b.setContent(html_95e2d7e5fdc146b6930ec295a8b5820d);
+            
+
+            marker_3be8551783ba427da0c311d4fbe4249e.bindPopup(popup_3c0945284ec94b5a9e139c3b2604215b)
+            ;
+
+            
+        
+    
+        var marker_8c702523f96b467e9c6a343bfac8a065 = L.marker(
+            [48.869873, 2.307419],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_9057a32a01704ad5b5ec79a94ae66fd7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_84dbb42f2aa44c3cb77855556a2693c9 = $(`<div id="html_84dbb42f2aa44c3cb77855556a2693c9" style="width: 100.0%; height: 100.0%;">44 avenue des Champs Elysées SE-NO</div>`)[0];
+                popup_9057a32a01704ad5b5ec79a94ae66fd7.setContent(html_84dbb42f2aa44c3cb77855556a2693c9);
+            
+
+            marker_8c702523f96b467e9c6a343bfac8a065.bindPopup(popup_9057a32a01704ad5b5ec79a94ae66fd7)
+            ;
+
+            
+        
+    
+        var marker_49a7efc31e084d8c9fa93aaeab59dcfa = L.marker(
+            [48.87451, 2.29215],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_b9e806cffa67410187da78f4c64435d5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1542c688f9d24f18b460fb6012d37ec8 = $(`<div id="html_1542c688f9d24f18b460fb6012d37ec8" style="width: 100.0%; height: 100.0%;">7 avenue de la Grande Armée NO-SE</div>`)[0];
+                popup_b9e806cffa67410187da78f4c64435d5.setContent(html_1542c688f9d24f18b460fb6012d37ec8);
+            
+
+            marker_49a7efc31e084d8c9fa93aaeab59dcfa.bindPopup(popup_b9e806cffa67410187da78f4c64435d5)
+            ;
+
+            
+        
+    
+        var marker_856d369a1b204f9e815621cdc6fa4782 = L.marker(
+            [48.874716, 2.292439],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_f993053e8328449d957430c01a0a5538 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_853cbb29b9e24f1a8e9004ad2e4dd550 = $(`<div id="html_853cbb29b9e24f1a8e9004ad2e4dd550" style="width: 100.0%; height: 100.0%;">10 avenue de la Grande Armée SE-NO</div>`)[0];
+                popup_f993053e8328449d957430c01a0a5538.setContent(html_853cbb29b9e24f1a8e9004ad2e4dd550);
+            
+
+            marker_856d369a1b204f9e815621cdc6fa4782.bindPopup(popup_f993053e8328449d957430c01a0a5538)
+            ;
+
+            
+        
+    
+        var marker_0c6807a5389e4bb0819ca8cd25130980 = L.marker(
+            [48.87746, 2.35008],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_7a81139034b94dc292486b6a51f670bd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e6f3e4b78af3423085771ccff51252bd = $(`<div id="html_e6f3e4b78af3423085771ccff51252bd" style="width: 100.0%; height: 100.0%;">100 rue La Fayette</div>`)[0];
+                popup_7a81139034b94dc292486b6a51f670bd.setContent(html_e6f3e4b78af3423085771ccff51252bd);
+            
+
+            marker_0c6807a5389e4bb0819ca8cd25130980.bindPopup(popup_7a81139034b94dc292486b6a51f670bd)
+            ;
+
+            
+        
+    
+        var marker_382a06cc970b4fb4b0f6f75ab4602444 = L.marker(
+            [48.877667, 2.350556],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_d864bdb5318840a49688f9c17af73753 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e76a776046c540b4976f4b7986e73e79 = $(`<div id="html_e76a776046c540b4976f4b7986e73e79" style="width: 100.0%; height: 100.0%;">105 rue La Fayette E-O</div>`)[0];
+                popup_d864bdb5318840a49688f9c17af73753.setContent(html_e76a776046c540b4976f4b7986e73e79);
+            
+
+            marker_382a06cc970b4fb4b0f6f75ab4602444.bindPopup(popup_d864bdb5318840a49688f9c17af73753)
+            ;
+
+            
+        
+    
+        var marker_c94d7ef2ffd342c8aeb9fd325a2dfa28 = L.marker(
+            [48.877686, 2.354471],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_701961b507f74e2abb5eda273b85e1c6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_15a85e6b1e814865bbc45f1ecf694db2 = $(`<div id="html_15a85e6b1e814865bbc45f1ecf694db2" style="width: 100.0%; height: 100.0%;">89 boulevard de Magenta NO-SE</div>`)[0];
+                popup_701961b507f74e2abb5eda273b85e1c6.setContent(html_15a85e6b1e814865bbc45f1ecf694db2);
+            
+
+            marker_c94d7ef2ffd342c8aeb9fd325a2dfa28.bindPopup(popup_701961b507f74e2abb5eda273b85e1c6)
+            ;
+
+            
+        
+    
+        var marker_9799d336ad794587a15b418cfa059a88 = L.marker(
+            [48.877726, 2.354926],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_825f971c486b4a80b22ac9f5eae1ee37 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3093484e24794bdfb5b1f7837d19a173 = $(`<div id="html_3093484e24794bdfb5b1f7837d19a173" style="width: 100.0%; height: 100.0%;">102 boulevard de Magenta SE-NO</div>`)[0];
+                popup_825f971c486b4a80b22ac9f5eae1ee37.setContent(html_3093484e24794bdfb5b1f7837d19a173);
+            
+
+            marker_9799d336ad794587a15b418cfa059a88.bindPopup(popup_825f971c486b4a80b22ac9f5eae1ee37)
+            ;
+
+            
+        
+    
+        var marker_e6e9f9a1c843400eb7568843b8269dd4 = L.marker(
+            [48.881626, 2.281203],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_8516db65104e45de81520b7898927a24 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cc9cd3a445cf4ea1a795a1318b429482 = $(`<div id="html_cc9cd3a445cf4ea1a795a1318b429482" style="width: 100.0%; height: 100.0%;">Face au 16 avenue de la  Porte des Ternes O-E</div>`)[0];
+                popup_8516db65104e45de81520b7898927a24.setContent(html_cc9cd3a445cf4ea1a795a1318b429482);
+            
+
+            marker_e6e9f9a1c843400eb7568843b8269dd4.bindPopup(popup_8516db65104e45de81520b7898927a24)
+            ;
+
+            
+        
+    
+        var marker_c03c1dc4bd2c4acd8be64402bcaa9ee0 = L.marker(
+            [48.88181, 2.281546],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_bfedf6b232c841e0a599641de2137d50 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a6c0a29e68b74bc2bb0ff2a4e7c05467 = $(`<div id="html_a6c0a29e68b74bc2bb0ff2a4e7c05467" style="width: 100.0%; height: 100.0%;">16 avenue de la Porte des Ternes E-O</div>`)[0];
+                popup_bfedf6b232c841e0a599641de2137d50.setContent(html_a6c0a29e68b74bc2bb0ff2a4e7c05467);
+            
+
+            marker_c03c1dc4bd2c4acd8be64402bcaa9ee0.bindPopup(popup_bfedf6b232c841e0a599641de2137d50)
+            ;
+
+            
+        
+    
+        var marker_d0ef0c58662d403ca4024d0cf2cb0c1b = L.marker(
+            [48.88529, 2.32666],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_bd4fbbbbfa174f63beed9b40715c0ec6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f076b989200a4e669018e93fe2371d9b = $(`<div id="html_f076b989200a4e669018e93fe2371d9b" style="width: 100.0%; height: 100.0%;">20 Avenue de Clichy</div>`)[0];
+                popup_bd4fbbbbfa174f63beed9b40715c0ec6.setContent(html_f076b989200a4e669018e93fe2371d9b);
+            
+
+            marker_d0ef0c58662d403ca4024d0cf2cb0c1b.bindPopup(popup_bd4fbbbbfa174f63beed9b40715c0ec6)
+            ;
+
+            
+        
+    
+        var marker_e6fcaefe36024e1cbfc94f42c35a947b = L.marker(
+            [48.889046, 2.374872],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_8b4262c76dc044eda4772c7b7c52df98 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e62d65042c0e429e901e58b0413faed6 = $(`<div id="html_e62d65042c0e429e901e58b0413faed6" style="width: 100.0%; height: 100.0%;">72 avenue de Flandre SO-NE</div>`)[0];
+                popup_8b4262c76dc044eda4772c7b7c52df98.setContent(html_e62d65042c0e429e901e58b0413faed6);
+            
+
+            marker_e6fcaefe36024e1cbfc94f42c35a947b.bindPopup(popup_8b4262c76dc044eda4772c7b7c52df98)
+            ;
+
+            
+        
+    
+        var marker_89f29a689eef4198a174150fa64cf21a = L.marker(
+            [48.88926, 2.37472],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_382ddc186d4b46608941891e03c09937 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_886fb881704d4fcaa28dd41d3f373ba1 = $(`<div id="html_886fb881704d4fcaa28dd41d3f373ba1" style="width: 100.0%; height: 100.0%;">87 avenue de Flandre NE-SO</div>`)[0];
+                popup_382ddc186d4b46608941891e03c09937.setContent(html_886fb881704d4fcaa28dd41d3f373ba1);
+            
+
+            marker_89f29a689eef4198a174150fa64cf21a.bindPopup(popup_382ddc186d4b46608941891e03c09937)
+            ;
+
+            
+        
+    
+        var marker_6b35018d09004a0f9d02e0f78b0d6776 = L.marker(
+            [48.890457, 2.368852],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_0502dcbd44c541baad381880cc3dc5cb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ad3151c70436488eb65d1faf88dd4a19 = $(`<div id="html_ad3151c70436488eb65d1faf88dd4a19" style="width: 100.0%; height: 100.0%;">Face 104 rue d'Aubervilliers</div>`)[0];
+                popup_0502dcbd44c541baad381880cc3dc5cb.setContent(html_ad3151c70436488eb65d1faf88dd4a19);
+            
+
+            marker_6b35018d09004a0f9d02e0f78b0d6776.bindPopup(popup_0502dcbd44c541baad381880cc3dc5cb)
+            ;
+
+            
+        
+    
+        var marker_80e214647f6947148886d08f4dd6d934 = L.marker(
+            [48.891215, 2.38573],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_23ca43b4d7f14a35ba1be43ceafd2f6c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0bf8568a07ef472ca2f9dd453d43cc55 = $(`<div id="html_0bf8568a07ef472ca2f9dd453d43cc55" style="width: 100.0%; height: 100.0%;">Face au 48 quai de la marne</div>`)[0];
+                popup_23ca43b4d7f14a35ba1be43ceafd2f6c.setContent(html_0bf8568a07ef472ca2f9dd453d43cc55);
+            
+
+            marker_80e214647f6947148886d08f4dd6d934.bindPopup(popup_23ca43b4d7f14a35ba1be43ceafd2f6c)
+            ;
+
+            
+        
+    
+        var marker_1092a703909240ab836f8a018b30ddc7 = L.marker(
+            [48.891415, 2.384954],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_5d0cbc3714b74efe868b6ee2b748795d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_51328f22cca543fba5ec9c3eb41d033f = $(`<div id="html_51328f22cca543fba5ec9c3eb41d033f" style="width: 100.0%; height: 100.0%;">Face au 25 quai de l'Oise</div>`)[0];
+                popup_5d0cbc3714b74efe868b6ee2b748795d.setContent(html_51328f22cca543fba5ec9c3eb41d033f);
+            
+
+            marker_1092a703909240ab836f8a018b30ddc7.bindPopup(popup_5d0cbc3714b74efe868b6ee2b748795d)
+            ;
+
+            
+        
+    
+        var marker_84aa89fbe4b14383a363a3c6c3a69546 = L.marker(
+            [48.89594, 2.35953],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_e0555fa5063f4df6b018c6dc329e8ad0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5d9c81b219a84cfa83e59a9ae87e8e30 = $(`<div id="html_5d9c81b219a84cfa83e59a9ae87e8e30" style="width: 100.0%; height: 100.0%;">72 rue de la Chapelle</div>`)[0];
+                popup_e0555fa5063f4df6b018c6dc329e8ad0.setContent(html_5d9c81b219a84cfa83e59a9ae87e8e30);
+            
+
+            marker_84aa89fbe4b14383a363a3c6c3a69546.bindPopup(popup_e0555fa5063f4df6b018c6dc329e8ad0)
+            ;
+
+            
+        
+    
+        var marker_bd48c68650844451945f344f901a98e4 = L.marker(
+            [48.896825, 2.345648],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_0e41f014b5cf4037928fba0d2bf36c06 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f6dc660810384af4a6e5de39aefd0333 = $(`<div id="html_f6dc660810384af4a6e5de39aefd0333" style="width: 100.0%; height: 100.0%;">74 Boulevard Ornano S-N</div>`)[0];
+                popup_0e41f014b5cf4037928fba0d2bf36c06.setContent(html_f6dc660810384af4a6e5de39aefd0333);
+            
+
+            marker_bd48c68650844451945f344f901a98e4.bindPopup(popup_0e41f014b5cf4037928fba0d2bf36c06)
+            ;
+
+            
+        
+    
+        var marker_1b8940247eae4336a96c86700921f5bf = L.marker(
+            [48.89696, 2.34538],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_e4dcbc8f38a5407299e631876ea3594a);
+        
+    
+            var popup_3fd2cd3588ac4c0fa16c2b62e186ce35 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b378de96f0c34323864b4992d1cd6ac6 = $(`<div id="html_b378de96f0c34323864b4992d1cd6ac6" style="width: 100.0%; height: 100.0%;">69 Boulevard Ornano N-S</div>`)[0];
+                popup_3fd2cd3588ac4c0fa16c2b62e186ce35.setContent(html_b378de96f0c34323864b4992d1cd6ac6);
+            
+
+            marker_1b8940247eae4336a96c86700921f5bf.bindPopup(popup_3fd2cd3588ac4c0fa16c2b62e186ce35)
+            ;
+
+            
+        
+</script>
